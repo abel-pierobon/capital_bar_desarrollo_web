@@ -14,10 +14,10 @@
 <body>
     <header class="container-fluid" style="background-image: url(../img/capital_madera.png);">
         <section class="row">
-            <div class="col-sm-12 col-md-9 col-md-12 col-xl-3">    
-                <img src="../img/capital_logo_sisi.png" alt="logo">  
+            <div class="col-sm-12 col-md-12  col-xl-3">    
+                <img src="../img/capital_logo_sisi.png" alt="logo" class="img-fluid">  
             </div>
-            <div class="col-sm-12 col-md-9 col-md-12 col-xl-5 card_header_nav_ul">
+            <div class="col-sm-12 col-md-12 col-xl-9" style="align-items: end;">
                 <nav class="navbar bg-body-tertiary">
                     <div>
                         <a class="navbar-brand" href="../index.html">Inicio</a>
@@ -31,6 +31,41 @@
     </header>
     <main class="container">
         <!-- Formulario de pedidos-->
+        <h1>Realiza tu pedido</h1>
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Direccion" aria-label="Direccion">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Telefono" aria-label="telefono">
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option selected>Elegui tu producto</option>
+                        <option value="Hamburguesas">Hamburguesas</option>
+                        <option value="Pizza">Pizza</option>
+                        <option value="Lomito">Lomito</option>
+                    </select>
+                    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                        <option selected>Cantidad</option>
+                        <option value="1">uno</option>
+                        <option value="2">dos</option>
+                        <option value="3">Tres</option>
+                    </select>
+                </div>
+            </div>
+        </div>
         
     </main>
     <footer class="container-fluid" style="background-color: #e4b41c;">
