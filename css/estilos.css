@@ -29,22 +29,17 @@
 /* propiedades body */
 body{
     background: url(../img/DALL·E\ 2023-03-23\ 12.44.42.png); 
-    /* display:grid;
-    gap:10px;
-    grid-template:
-    "header" 160px
-    "main"  auto
-    "footer" 200px; */
 }
 /* propiedades header */
 .card_header{
     position:fixed; 
     background-color:#ebbb37; 
-    /* /opacity: 0.98;
-    height: 100px; 
-    width: 100%; */
     z-index:100;
 } 
+.img_header{
+    width:100px;
+    height:70px;
+}
 /* propiedades main */
 .card_main_index{
     background-color: #f4dc84; 
@@ -54,30 +49,7 @@ body{
     padding-top: 120px;
     z-index: 0;
 }  
-.card_main{
-    grid-area: main;
-    display:flex;
-    flex-direction: column;
-    justify-content:space-between;
-    flex-wrap: wrap;
-    align-items:center;
-    background-color: #f4dc84;
-    opacity: 0.95;
-    border-style: double;
-    padding-top: 100px;
-    width: 100%;
-    padding: 20px; 
-}  
-.img_index_titulo{
-    width: 100%;
-    height: 150px;
-    opacity: 100%;
-}
-/* Textos en negrita */
-.negrita{
-    font-weight: bold;
-}
-.mapa{
+.mapa{ 
     width:400px;
     height:400px;
     border-style: solid;
@@ -104,16 +76,9 @@ h2{
     font-weight:900;
     background-image: radial-gradient(#efcc61, #e4b412,#c0330c );
 }
-
 h3{ 
     font-size: 25px;
     text-align: center;
-}
-.centrar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* height: 100vh; */
 }
 footer{
     background-color: #e4b41c; 
@@ -135,27 +100,12 @@ footer div h4 a{
     color: black;
     padding: 20px 2px;
 }
-.main_div{
-    display: flex;
-    flex-direction: column; 
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.main_index{
+.main_centrar{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-    
-}
-.img_index{
-    width: 500px;
-    height: 500px;
-    border-color:  #c0330c;
-    border-style: solid;
-    margin: 5px;
 }
 .main_nosotros{
     display: flex;
@@ -185,33 +135,17 @@ footer div h4 a{
     border-color: black;
     border-style: solid;
 }
-.main_producto{
-    padding: 10px;
-}
-.formulario{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} 
-.img_index_main{
-    width: 200px;
-    height: 700px;
-    border-radius: 3%;
-    border-color: black;
-    border-style: solid;
-}
 #carouselExample{
     max-width: 500px; 
     margin: 0 auto; 
 }
 .carousel-inner {
-    max-height: 700px; /* Ajusta la altura máxima del carrusel según tus necesidades */
-    }
-    
+    max-height: 700px; 
+}
 .carousel-item img {
-    max-width: 100%; /* Ajusta el ancho de las imágenes al 100% del ancho del carrusel */
-    height: auto; /* Ajusta la altura de las imágenes automáticamente */
-    margin: 0 auto; /* Centra horizontalmente las imágenes usando margen automático */
+    max-width: 100%; 
+    height: auto; 
+    margin: 0 auto;
 }
 .img_pedidos{
     width: 300px;
@@ -221,84 +155,37 @@ footer div h4 a{
 .img_pedidos:hover{
     transform: scale(1.5,1.5);
 }
-
-/* @media screen and (max-width: 576px) {
-    body{
-        display:grid;
-        gap:10px;
-        grid-template:
-        "header" 100px
-        "main"  auto
-        "footer" 100px;
+@media screen and (max-width: 576px) {
+    .card_main_index{
+        padding-top: 70px;
     }
-    header{
-        display: flex;
-        z-index: 999;
-        justify-content:space-between; 
-        height: 100px;
-    }
-    header div img{
-        width: 130px;
-        height: 90%;
-        justify-items: center;
-    }
-    header div{
-        width: 45%;
-        height: 100px;
-        z-index: 999;
-        box-sizing: border-box;
-    }
-    header nav ul li a{
-        color: #e4b41c ; 
-        font-size: 80%;
-        text-decoration:none;
-        margin: 0px;
-    }
-    header nav ul{
-        display: flex;
-        flex-direction: column;
-        align-content: flex-end;
-        height: 250px;
-        z-index: 2;
-        font-weight: 800;
-    }
-    /*MENU HAMBURGUESA*/
-    /* header label{
-        width: 40%;
-        text-align: end;
-        display: flex;
-        justify-content: end;
-    }
-    header label i{
-        color: #c0330c;
-        font-size: 30px;
-    }
-    header nav{
-        /* display: none; 
-        transform:translateY( -1152px);
-        transition: 1s;
-        position: absolute;
-        justify-content: flex-start;
-        top: 10px;
-        /* top: 40px; 
-        width: 100%;
-        height: 100vh;
-        padding: 20px;
-    }
-    .inputMenu{
-        display: none;
-    }
-    .inputMenu:hover + nav {
-        transform: translateY(0);
+    .img_header{
+        width:70px;
+        height:49px;
     }
     h1{
-        font-size: 250%;
-        margin top: 5px;;
+        font-size: 200%;
+        /* margin top: 5px; */
     }
-    .img_index{
-        width: 300px;
-        height: 300px;
+    h2{
+        font-size: 100%;
+    }
+    .img_index_main{
+        width: 100px;
+        height: 100px;
         padding: 2px;
+    }
+    #carouselExample{
+        max-width: 400px; 
+        margin: 0 auto; 
+    }
+    .carousel-inner {
+        max-height: 400px; 
+    }
+    .carousel-item img {
+        max-width: 100%; 
+        height: auto; 
+        margin: 0 auto;
     }
     .img_productos{
         width: 200px;
@@ -311,16 +198,9 @@ footer div h4 a{
     .mapa{
         width: 300px;
         height: 300px;
-    }
-    footer section{
-        display: flex;
-        justify-content:space-around;
-        padding: 10px 2px;
-        text-decoration: none;
-    }
-    footer div img{
-        width: 15px;
-        height: 15px;
+    } 
+    p{
+        font-size: 70%;
     }
     h3{
         font-size: 20px;
@@ -328,7 +208,14 @@ footer div h4 a{
     h4{
         font-size: 15px;
     }
-    footer{
-        width: 100%;
+    .img_productos{
+        width: 150px;
+        height: 150px;
     }
-}  
+    .img_productos:checked{
+        transform: scale(1.5,1.5);
+    }
+    .img_pedidos{
+        display: none;
+    }
+}
