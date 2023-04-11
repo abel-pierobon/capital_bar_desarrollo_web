@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <header style="background-color: #e4b41c;"">
+    <header class="container-fluid card_header">
         <div class="row">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg">
@@ -46,9 +46,11 @@
             </div>
         </div>
     </header>
-    <main> 
+    <main class="container card_main_index"> 
+        <div class="titulo">
         <h1> NUESTRA HISTORIA</h1>
-        <div>
+        </div>
+        <div class="main_nosotros_fondo">
             <p>Bienvenidos a <b>CAPITAL BAR AND FOOD</b>, un lugar donde encontrarás las mejores opciones de comidas 
             rápidas en la ciudad. Somos un negocio especializado en lomitos, hamburguesas, pizzas y empanadas, 
             y nos enorgullece ofrecer la mejor calidad en cada uno de nuestros productos.
@@ -64,57 +66,65 @@
             sugerencias y comentarios, para seguir mejorando y ofreciendo lo mejor en comida rápida
             Gracias por elegirnos como tu opción de comida rápida favorita. ¡Esperamos verte pronto en nuestro local!</P>
         </div>
-        <section class="main_div">
-            <h2>Nuestra Misión</h2>
-            <div>
-                <p>En CAPITAL, Bar and Food, nuestra misión es ofrecer a nuestros clientes comidas deliciosas y de alta calidad, 
-                preparadas con los mejores ingredientes y con un servicio excepcional. Nos esforzamos por superar las expectativas de 
-                nuestros clientes en cada visita, creando experiencias culinarias únicas e inolvidables.</p>
+        <div class="main_nosotros">
+            <p>
+                <a class="btn btn-warning" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Nuestra Mision</a>
+                <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Nuestra Vision</button>
+                <!-- <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button> -->
+            </p>
+            <div class="row">
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body main_nosotros_fondo">
+                    <p>En CAPITAL, Bar and Food, nuestra misión es ofrecer a nuestros clientes comidas deliciosas y de alta calidad, 
+                        preparadas con los mejores ingredientes y con un servicio excepcional. Nos esforzamos por superar las expectativas de 
+                        nuestros clientes en cada visita, creando experiencias culinarias únicas e inolvidables.</p>
+                </div>
+                </div>
             </div>
-            <label for="vision">
-                <h2 class="input_nosotros">Nuestra Vision</h2>
-            </label>
-            <input type="checkbox" id="vision" class="input_nosotros">
-            <div>
-                <p>En CAPITAL, Bar and Food, nuestra visión es ser el negocio de comidas preferido en nuestra comunidad, 
-                reconocido por nuestra calidad, innovación y compromiso con el servicio al cliente. Nos esforzamos por ser líderes 
-                en la industria de la comida, y ser conocidos por nuestra excelencia culinaria y servicio excepcional.</p>
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                    <div class="card card-body main_nosotros_fondo">
+                        <p><u><b> Calidad:</b></u> En CAPITAL, Bar and Food, nos esforzamos por utilizar los mejores ingredientes y preparar 
+                            nuestros platos con los más altos estándares de calidad, asegurando que cada bocado sea delicioso y 
+                            satisfactorio.</p>
+                            <p><u><b> Servicio:</b></u> En CAPITAL, Bar and Food, valoramos el servicio al cliente y nos esforzamos por crear una 
+                            experiencia excepcional para nuestros clientes en cada visita. Nos enfocamos en brindar un servicio 
+                            amable, atento y personalizado.</p>
+                            <p><u><b> Innovación:</b></u> En CAPITAL, Bar and Food, nos comprometemos con la innovación y la mejora continua. 
+                            Buscamos constantemente nuevas formas de mejorar nuestros platos, procesos y servicios, ofreciendo a 
+                            nuestros clientes una experiencia culinaria única y diferente.</p>
+                            <p><u><b> Comunidad:</b></u> En CAPITAL, Bar and Food, nos preocupamos por nuestra comunidad y queremos ser un negocio 
+                            responsable y activo en ella. Nos esforzamos por contribuir positivamente a través de actividades de caridad, 
+                            donaciones y patrocinios locales.</p>
+                            <p><u><b> Pasión:</b></u> En CAPITAL, Bar and Food, estamos apasionados por la comida y nuestra cultura culinaria. 
+                            Queremos compartir esta pasión con nuestros clientes, asegurándonos de que cada plato que servimos 
+                            refleje nuestra dedicación y amor por la cocina.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <h2>Nuestros Valores</h2>
-            <div>
-                <p><u><b> Calidad:</b></u> En CAPITAL, Bar and Food, nos esforzamos por utilizar los mejores ingredientes y preparar 
-                nuestros platos con los más altos estándares de calidad, asegurando que cada bocado sea delicioso y 
-                satisfactorio.</p>
-                <p><u><b> Servicio:</b></u> En CAPITAL, Bar and Food, valoramos el servicio al cliente y nos esforzamos por crear una 
-                experiencia excepcional para nuestros clientes en cada visita. Nos enfocamos en brindar un servicio 
-                amable, atento y personalizado.</p>
-                <p><u><b> Innovación:</b></u> En CAPITAL, Bar and Food, nos comprometemos con la innovación y la mejora continua. 
-                Buscamos constantemente nuevas formas de mejorar nuestros platos, procesos y servicios, ofreciendo a 
-                nuestros clientes una experiencia culinaria única y diferente.</p>
-                <p><u><b> Comunidad:</b></u> En CAPITAL, Bar and Food, nos preocupamos por nuestra comunidad y queremos ser un negocio 
-                responsable y activo en ella. Nos esforzamos por contribuir positivamente a través de actividades de caridad, 
-                donaciones y patrocinios locales.</p>
-                <p><u><b> Pasión:</b></u> En CAPITAL, Bar and Food, estamos apasionados por la comida y nuestra cultura culinaria. 
-                Queremos compartir esta pasión con nuestros clientes, asegurándonos de que cada plato que servimos 
-                refleje nuestra dedicación y amor por la cocina.</p>
-            </div>
-        </section>
+        </div>
     </main>
-    <footer>
-        <!-- redes -->
-        <h3>Seguinos en nuestras Redes Sociales</h3>
+    <footer class="container-fluid">
         <section>
-            <div class="footer_ubicacion">
-                <img src="../img/instagram.png" alt="icono_instagram">
-                <h4><a href="https://www.instagram.com/">Instagram</a></h4>
+            <div class="row">
+            <!-- redes -->
+            <h2>Seguinos en nuestras Redes Sociales</h2>
             </div>
-            <div class="footer_ubicacion">
-                <img src="../img/facebook.png" alt="icono_facebook">
-                <h4><a href="https://www.facebook.com/">Facebook</a></h4>
-            </div>
-            <div class="footer_ubicacion">
-                <img src="../img/whatsapp.png" alt="icono_whatsapp">
-                <h4><a href="https://web.whatsapp.com/">Whatsapp</a></h4>
+            <div class="row">
+                <div class="footer_ubicacion col-sm-12 col-md-12 col-lg-4 ">
+                    <img src="../img/instagram.png" alt="icono_instagram">
+                    <h4><a href="https://www.instagram.com/">Instagram</a></h4>
+                </div>
+                <div class="footer_ubicacion col-sm-12 col-md-12 col-lg-4 ">
+                    <img src="../img/facebook.png" alt="icono_facebook">
+                    <h4><a href="https://www.facebook.com/">Facebook</a></h4>
+                </div>
+                <div class="footer_ubicacion col-sm-12 col-md-12 col-lg-4 ">
+                    <img src="../img/whatsapp.png" alt="icono_whatsapp">
+                    <h4><a href="https://web.whatsapp.com/">Whatsapp</a></h4>
+                </div>
             </div>
         </section>
     </footer>

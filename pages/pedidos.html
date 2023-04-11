@@ -11,7 +11,7 @@
     <title> pedidos</title>
 </head>
 <body>
-    <header style="background-color: #e4b41c;"">
+    <header class="container-fluid card_header">
         <div class="row">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg">
@@ -46,65 +46,107 @@
             </div>
         </div>
     </header>
-<main class="container">
-    <!-- Formulario de pedidos-->
-    <h1>Realiza tu pedido</h1>
-    <div class="row">
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+    <main class="container card_main_index">
+        <div>
+            <h1>Realiza tu pedido</h1>
         </div>
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+        <div class="row">
+            <img src="../img/menu_hamburguesas.jpeg" class="img_pedidos" alt="menu">
+            <img src="../img/menu_lomos.jpeg" class="img_pedidos" alt="menu">
+            <img src="../img/menu_pizza.jpeg" class="img_pedidos" alt="menu">
+            <img src="../img/menu_pizza_2.jpeg" class="img_pedidos" alt="menu">
+
         </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Direccion" aria-label="Direccion">
-        </div>
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Telefono" aria-label="telefono">
-        </div>
-    </div>
-    <div class="container text-center">
+        <!-- Formulario de pedidos-->
         <div class="row">
             <div class="col">
-                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                    <option selected>Elegui tu producto</option>
-                    <option value="Hamburguesas">Hamburguesas</option>
-                    <option value="Pizza">Pizza</option>
-                    <option value="Lomito">Lomito</option>
-                </select>
-                <div>
-                    <img src="../img/menu_hamburguesas.jpeg" alt="menu_hamburguesas" class="card_menu_h">
-                    <img src="../img/menu_pizza.jpeg" alt="menu_pizza" class="card_menu_h">
-                    <img src="../img/menu_lomos.jpeg" alt="menu_lomos" class="card_menu_h">
-                </div>
-                <select class="form-select form-select-sm" aria-label=".form-select-sm examplegit ">
-                    <option selected>Cantidad</option>
-                    <option value="1">uno</option>
-                    <option value="2">dos</option>
-                    <option value="3">Tres</option>
-                </select>
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
             </div>
         </div>
-    </div>
-        
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Direccion" aria-label="Direccion">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Telefono" aria-label="telefono">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <button type="button" class="btn btn-warning"">Hamburguesas</button>
+                <div>
+                    <select class="form-select form-select-lg mb-2" aria-label=".form-select-lg example">
+                        <option selected>Elegí tu Hamburguesa</option>
+                        <option value="Tradicional">Tradicional</option>
+                        <option value="Completa">Completa</option>
+                        <option value="Capital">Capital</option>
+                    </select>
+                    <select class="form-select form-select-sm" aria-label=".form-select-sm examplegit">
+                        <option selected>Cantidad</option>
+                        <option value="1">uno</option>
+                        <option value="2">dos</option>
+                        <option value="3">Tres o más</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <button type="button" class="btn btn-warning">Lomitos</button>
+                <div class="col">
+                    <select class="form-select form-select-lg mb-2">
+                        <option selected>Elegí tu Lomito</option>
+                        <option value="Tradicional_l">Tradicional</option>
+                        <option value="Completo_l">Completo</option>
+                        <option value="Capital_l">Capital</option>
+                    </select>
+                    <select class="form-select form-select-sm" aria-label=".form-select-sm examplegit">
+                        <option selected>Cantidad</option>
+                        <option value="1">uno</option>
+                        <option value="2">dos</option>
+                        <option value="3">Tres o más</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <button type="button" class="btn btn-warning">Pizzas</button>
+                <div class="col">
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option selected>Elegí tu Pizza</option>
+                        <option value="Muzarella">Muzarella</option>
+                        <option value="Especial">Especial</option>
+                        <option value="Rucula">Rucula</option>
+                        <option value="Cuatro Quesos">Cuatro Quesos</option>
+                    </select>
+                    <select class="form-select form-select-sm" aria-label=".form-select-sm examplegit">
+                        <option selected>Cantidad</option>
+                        <option value="1">uno</option>
+                        <option value="2">dos</option>
+                        <option value="3">Tres o más</option>
+                    </select>
+                </div>
+            </div>
     </main>
-    <footer class="container-fluid" style="background-color: #e4b41c;">
-        <!-- redes -->
-        <h3>Seguinos en nuestras Redes Sociales</h3>
+    <footer class="container-fluid">
         <section>
-            <div class="footer_ubicacion">
-                <img src="../img/instagram.png" alt="icono_instagram">
-                <h4><a href="https://www.instagram.com/">Instagram</a></h4>
+            <div class="row">
+            <!-- redes -->
+            <h2>Seguinos en nuestras Redes Sociales</h2>
             </div>
-            <div class="footer_ubicacion">
-                <img src="../img/facebook.png" alt="icono_facebook">
-                <h4><a href="https://www.facebook.com/">Facebook</a></h4>
-            </div>
-            <div class="footer_ubicacion">
-                <img src="../img/whatsapp.png" alt="icono_whatsapp">
-                <h4><a href="https://web.whatsapp.com/">Whatsapp</a></h4>
+            <div class="row">
+                <div class="footer_ubicacion col-sm-12 col-md-12 col-lg-4 ">
+                    <img src="../img/instagram.png" alt="icono_instagram">
+                    <h4><a href="https://www.instagram.com/">Instagram</a></h4>
+                </div>
+                <div class="footer_ubicacion col-sm-12 col-md-12 col-lg-4 ">
+                    <img src="../img/facebook.png" alt="icono_facebook">
+                    <h4><a href="https://www.facebook.com/">Facebook</a></h4>
+                </div>
+                <div class="footer_ubicacion col-sm-12 col-md-12 col-lg-4 ">
+                    <img src="../img/whatsapp.png" alt="icono_whatsapp">
+                    <h4><a href="https://web.whatsapp.com/">Whatsapp</a></h4>
+                </div>
             </div>
         </section>
     </footer>

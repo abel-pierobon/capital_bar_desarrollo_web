@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <header style="background-color: #e4b41c;"">
+    <header class="container-fluid card_header">
         <div class="row">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg">
@@ -46,28 +46,58 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="container card_main_index">
         <h1>Contacto</h1>
-        <section>
-            <!-- <iframe src="https://www.instagram.com/reel/CcJT9RXgozT/?igshid=ZTE2MDY0MWU=" frameborder="0" autoplay></iframe> -->
-            <video src="../video/capital_video.mp4" autoplay muted width="500px" height="500px"></video>
-        </section>
+        <div class="row">
+            <div class="col-md-12 col-lg-6">
+                <h2>Nuestra Ubicación</h2>
+                <div class="mapa">
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4817.546426348883!2d-64.12872273202629!3d-31.372229310068863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v16799602175100!5m2!1ses-419!2sar"></iframe>
+                </div>
+            </div>
+            <!-- Formulario de sugerencias-->
+            <div class="col-md-12 col-lg-6">
+                <h2>Dejanos tus Sugerencias</h2>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Telefono" aria-label="telefono">
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="observaciones">Observaciones:</label>
+                        <textarea class="form-control" id="observaciones" rows="3"></textarea>
+                </div>
+                <button type="button" class="btn btn-primary mt-3">Enviar sugerencias</button>
+            </div>
+        </div>
+        
     </main>
-    <footer>
-        <!-- redes -->
-        <h3>Seguinos en nuestras Redes Sociales</h3>
+    <footer class="container-fluid">
         <section>
-            <div class="footer_ubicacion">
-                <img src="../img/instagram.png" alt="icono_instagram">
-                <h4><a href="https://www.instagram.com/">Instagram</a></h4>
+            <div class="row">
+            <!-- redes -->
+            <h2>Seguinos en nuestras Redes Sociales</h2>
             </div>
-            <div class="footer_ubicacion">
-                <img src="../img/facebook.png" alt="icono_facebook">
-                <h4><a href="https://www.facebook.com/">Facebook</a></h4>
-            </div>
-            <div class="footer_ubicacion">
-                <img src="../img/whatsapp.png" alt="icono_whatsapp">
-                <h4><a href="https://web.whatsapp.com/">Whatsapp</a></h4>
+            <div class="row">
+                <div class="footer_ubicacion col-sm-12 col-md-12 col-lg-4 ">
+                    <img src="../img/instagram.png" alt="icono_instagram">
+                    <h4><a href="https://www.instagram.com/">Instagram</a></h4>
+                </div>
+                <div class="footer_ubicacion col-sm-12 col-md-12 col-lg-4 ">
+                    <img src="../img/facebook.png" alt="icono_facebook">
+                    <h4><a href="https://www.facebook.com/">Facebook</a></h4>
+                </div>
+                <div class="footer_ubicacion col-sm-12 col-md-12 col-lg-4 ">
+                    <img src="../img/whatsapp.png" alt="icono_whatsapp">
+                    <h4><a href="https://web.whatsapp.com/">Whatsapp</a></h4>
+                </div>
             </div>
         </section>
     </footer>

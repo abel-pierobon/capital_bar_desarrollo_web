@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 </head>
-<body class="card_body">
+<body>
     <!-- encabezado -->
-    <header class="container-fluid card_header" style="position: fixed; top: 0; left: 0; right: 0; z-index: 100;">
+    <header class="container-fluid card_header">
         <div class="row">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg">
@@ -41,7 +41,7 @@
                         </ul>
                         <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="buscar" aria-label="Search">
-                        <button class="btn btn-outline-dark" type="dark">Buscar</button>
+                        <button class="btn btn-outline-success" type="dark">Buscar</button>
                         </form>
                     </div>
                 </nav>
@@ -50,63 +50,49 @@
     </header>
     <main class="container card_main_index"> 
         <!--  principales  -->
-        <!-- <div>
-            <div>
+        <div class="titulo">
             <h1>CAPITAL BAR AND FOOD</h1>
-            </div>
-        </div>  -->
-        <!-- <div clas="row">
-            <img src="img/logo_capital_5.jpg" alt="imagen de logo" class="img_index_titulo">
-        </div> -->
+        </div> 
         <div id="carouselExample" class="carousel slide" max-width="300px" >
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/horario.jpeg" class="d-block w-100 img_index_main" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/menu_hamburguesas.jpeg" class="d-block w-100 img_index_main" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/menu_pizza.jpeg" class="d-block w-100 img_index_main" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/menu_lomos.jpeg" class="d-block w-100 img_index_main" alt="...">
-              </div>
+            <div class="carousel-item active">
+                <img src="img/horario.jpeg" class="d-block w-100 img_index_main" alt="horario">
             </div>
+            <div class="carousel-item">
+                <img src="img/menu_hamburguesas.jpeg" class="d-block w-100 img_index_main" alt="menu">
+            </div>
+            <div class="carousel-item">
+                <img src="img/menu_pizza.jpeg" class="d-block w-100 img_index_main" alt="menu">
+            </div>
+            <div class="carousel-item">
+                <img src="img/menu_lomos.jpeg" class="d-block w-100 img_index_main" alt="menu">
+            </div>
+        </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
-          <!-- </div>
-            <div class="main_div">
-                <h2>Nuestra Ubicación</h2>
-                <iframe  class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4817.546426348883!2d-64.12872273202629!3d-31.372229310068863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v16799602175100!5m2!1ses-419!2sar" ></iframe>
-            </div> -->
     </main>
-    <footer class="container-fluid"  style="background-color:#e4b41c ;>
+    <footer class="container-fluid">
         <section>
             <div class="row">
             <!-- redes -->
             <h2>Seguinos en nuestras Redes Sociales</h2>
             </div>
             <div class="row">
-                <div class="footer_ubicacion">
+                <div class="footer_ubicacion col-sm-12 col-md-12 col-lg-4 ">
                     <img src="img/instagram.png" alt="icono_instagram">
                     <h4><a href="https://www.instagram.com/">Instagram</a></h4>
                 </div>
-            </div>
-            <div class="row">
-                <div class="footer_ubicacion">
+                <div class="footer_ubicacion col-sm-12 col-md-12 col-lg-4 ">
                     <img src="img/facebook.png" alt="icono_facebook">
                     <h4><a href="https://www.facebook.com/">Facebook</a></h4>
                 </div>
-            </div>
-            <div class="row">
-                <div class="footer_ubicacion">
+                <div class="footer_ubicacion col-sm-12 col-md-12 col-lg-4 ">
                     <img src="img/whatsapp.png" alt="icono_whatsapp">
                     <h4><a href="https://web.whatsapp.com/">Whatsapp</a></h4>
                 </div>
@@ -114,5 +100,4 @@
         </section>
     </footer>
 </body>
-
 </html>

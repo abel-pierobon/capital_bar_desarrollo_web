@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 </head>
 <body>
-    <header style="background-color: #e4b41c;"">
+    <header class="container-fluid card_header">
         <div class="row">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg">
@@ -47,13 +47,15 @@
             </div>
         </div>
     </header>
-    <main class="container">
+    <main class="container card_main_index">
         <section>
-            <!-- <h1>Productos</h1>
+            <div class="titulo">
+            <h1>Mira nuestros Productos</h1>
+            </div>
             <div>
                 <h2>Nuestras Hamburguesas</h2>
-                <div>
-                    <img src="../img/Hamburguesa_mano.jpeg" alt="Hamburguesas" >
+                <div class="main_index">
+                    <img src="../img/Hamburguesa_mano.jpeg" alt="Hamburguesas" class="img_productos" >
                     <img src="../img/hamburguesa_3.jpeg" alt="Hamburguesas" class="img_productos">
                     <img src="../img/Hmburguesa_1.jpeg" alt="Hamburguesas" class="img_productos">
                 </div>
@@ -61,8 +63,7 @@
             <div>
                 <h2>Nuestros Lomitos</h2>
                 <div class="main_index">
-                    <img src="../img/lomito_3.jpeg" alt="lomito" class="img_productos">
-                    <img src="../img/lomito_2.jpeg" alt="lomito" class="img_productos_2">
+                    <img src="../img/lomito_2.jpeg" alt="lomito" class="img_productos_2 img_transform">
                 </div>
             </div>
             <div>
@@ -86,25 +87,28 @@
                     <img src="../img/pollo_al_disco_2.jpeg" alt="pollo_al_disco" class="img_productos" >
                     <img src="../img/pollo_al_disco.jpeg" alt="pollo_al_disco" class="img_productos">
                 </div>
-            </div> -->
-            
+            </div>
         </section>
     </main>
-    <footer>
-        <!-- redes -->
-        <h3>Seguinos en nuestras Redes Sociales</h3>
+    <footer class="container-fluid">
         <section>
-            <div class="footer_ubicacion">
-                <img src="../img/instagram.png" alt="icono_instagram">
-                <h4><a href="https://www.instagram.com/">Instagram</a></h4>
+            <div class="row">
+            <!-- redes -->
+            <h2>Seguinos en nuestras Redes Sociales</h2>
             </div>
-            <div class="footer_ubicacion">
-                <img src="../img/facebook.png" alt="icono_facebook">
-                <h4><a href="https://www.facebook.com/">Facebook</a></h4>
-            </div>
-            <div class="footer_ubicacion">
-                <img src="../img/whatsapp.png" alt="icono_whatsapp">
-                <h4><a href="https://web.whatsapp.com/">Whatsapp</a></h4>
+            <div class="row">
+                <div class="footer_ubicacion col-sm-12 col-md-12 col-lg-4 ">
+                    <img src="../img/instagram.png" alt="icono_instagram">
+                    <h4><a href="https://www.instagram.com/">Instagram</a></h4>
+                </div>
+                <div class="footer_ubicacion col-sm-12 col-md-12 col-lg-4 ">
+                    <img src="../img/facebook.png" alt="icono_facebook">
+                    <h4><a href="https://www.facebook.com/">Facebook</a></h4>
+                </div>
+                <div class="footer_ubicacion col-sm-12 col-md-12 col-lg-4 ">
+                    <img src="../img/whatsapp.png" alt="icono_whatsapp">
+                    <h4><a href="https://web.whatsapp.com/">Whatsapp</a></h4>
+                </div>
             </div>
         </section>
     </footer>
