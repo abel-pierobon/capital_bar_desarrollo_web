@@ -83,7 +83,7 @@ body{
     border-style: solid;
     border-color: black;
     border-radius: 3%;
-    width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="" border-color="black " border-style="solid" */
+    width="500" height="500" style="border:0.3;border-color="black " border-style="solid" ;
 }  
 h1{ 
     color:#ee0606;
@@ -216,7 +216,12 @@ footer div h4 a{
 .img_pedidos{
     width: 300px;
     height: 300px;
+    transition: 2s;
 }
+.img_pedidos:hover{
+    transform: scale(1.5,1.5);
+}
+
 /* @media screen and (max-width: 576px) {
     body{
         display:grid;
