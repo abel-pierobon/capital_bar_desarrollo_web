@@ -26,74 +26,40 @@
 }
 /* propiedades body */
 .card_body{
-    min-height: 100%;
-    margin: 0px 10px;
     background: url(../img/DALL·E\ 2023-03-23\ 12.44.42.png);
     /* background-image:linear-gradient() url(../img/DALL·E\ 2023-03-23\ 12.44.42.png); */
-    display:grid;
+    /* display:grid;
     gap:10px;
     grid-template:
     "header" 160px
     "main"  auto
-    "footer" 200px;
+    "footer" 200px; */
 }
 /* propiedades header */
 .card_header{
-    grid-area: header;
-    display: flex;
-    justify-content:space-between; 
-    align-items:center; 
-    flex-wrap: wrap;
-    padding: 2px 0px;
     position:fixed; 
     background-color: #e4b41c; 
-    opacity: 0.98;
-    height: 150px; 
-    /* padding: 10px;  */
-    width: 99%;
-    z-index:1; /* asegura que el encabezado esté en la parte superior */
-    border-style: double;
+    /* /opacity: 0.98;
+    height: 100px; 
+    width: 100%; */
+    z-index:100;
 } 
-/* tamaño contenedor logo */
-header_div{
-    width: 48%;
-    height: 100%;
-}
-/* tamaño logo */
-header div img{
-    width: 200px;
-    height: 130px;
-    max-height: 160px;
-    max-width: 4500px;
-}
-/* tamaño contenedor navegador */
-header nav{
-    width: 48%;
-}
 /* propiedades contenedor listas */
-.card_header_nav_ul{
+/* .card_header_nav_ul{
     display: flex;
     justify-content:space-between;
     list-style-type: none;
     flex-wrap: wrap;
-}
-/* propiedades listas navegación */
-header nav ul li{
-padding: 10px;
-}
-/* listas */
-header nav ul li a{
-    color: #543404 ;
-    font-size: 120%;
-    text-decoration: none;
-}
-.inputMenu{
-    display: none;
-}
-header label{
-    display: none;
-}
+} */
+
 /* propiedades main */
+.card_main_index{
+    background-color: #f4dc84;
+    opacity: 0.90;
+    padding: 20px; 
+    padding-top: 120px;
+    z-index: 0;
+}  
 .card_main{
     grid-area: main;
     display:flex;
@@ -104,12 +70,17 @@ header label{
     background-color: #f4dc84;
     opacity: 0.95;
     border-style: double;
-    padding-top: 10px;
+    padding-top: 100px;
     width: 100%;
     padding: 20px; 
 }  
+.img_index_titulo{
+    width: 100%;
+    height: 150px;
+    opacity: 100%;
+}
 /* Textos en negrita */
-.negrita{
+/* .negrita{
     font-weight: bold;
 }
 .mapa{
@@ -119,7 +90,7 @@ header label{
     border-color: black;
     border-radius: 3%;
     /* width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="" border-color="black " border-style="solid" */
-}
+} */
 h1{ 
     color:#c0330c;
     font-size: 400%;
@@ -135,7 +106,7 @@ h2{
     font-weight: bold;
 }
 
-h3{ 
+/* h3{ 
     font-size: 25px;
     text-align: center;
 }
@@ -145,15 +116,10 @@ h3{
     align-items: center;
     /* height: 100vh; */
 }
-.card_footer{
-    grid-area: footer;
-    display: flex;
-    justify-content:space-between; 
-    flex-direction: column;
+footer{
     background-color: #e4b41c; 
     opacity: 0.98;
-    border-style: double;
-}
+}  
 /* iconos footer */
 footer div img{
     width: 20px;
@@ -164,7 +130,7 @@ footer div img{
     justify-content: flex-start;
     padding: 10px 2px;
     text-decoration: none;
-}
+} 
 footer div h4 a{
     text-decoration: none;
     color: black;
@@ -198,7 +164,7 @@ footer div h4 a{
     height: 400px;
     border-radius: 3%;
     border-color: black;
-    border-style: solid;
+    border-style: solid; 
 }
 .img_productos_2{
     width: 786px;
@@ -221,7 +187,40 @@ footer div h4 a{
 }
 .input_nosotros:hover + vision {
     transform: translateY(0);
+} */
+/* .card_menu_h{
+    display: none;
+    width: 200px;
+    height: 200px;
+} */
+.img_productos{
+    width: 200px;
+    height: 100%;
+    border-radius: 3%;
+    border-color: black;
+    border-style: solid; 
 }
+.img_index_main{
+    width: 200px;
+    height: 700px;
+    border-radius: 3%;
+    border-color: black;
+    border-style: solid;
+}
+#carouselExample{
+    max-width: 500px; 
+    margin: 0 auto; 
+}
+.carousel-inner {
+    max-height: 500px; /* Ajusta la altura máxima del carrusel según tus necesidades */
+    }
+    
+.carousel-item img {
+    max-width: 100%; /* Ajusta el ancho de las imágenes al 100% del ancho del carrusel */
+    height: auto; /* Ajusta la altura de las imágenes automáticamente */
+    margin: 0 auto; /* Centra horizontalmente las imágenes usando margen automático */
+    }
+      
 /* @media screen and (max-width: 576px) {
     body{
         display:grid;
@@ -274,13 +273,13 @@ footer div h4 a{
         font-size: 30px;
     }
     header nav{
-        /* display: none; */
+        /* display: none; 
         transform:translateY( -1152px);
         transition: 1s;
         position: absolute;
         justify-content: flex-start;
         top: 10px;
-        /* top: 40px; */
+        /* top: 40px; 
         width: 100%;
         height: 100vh;
         padding: 20px;
@@ -331,4 +330,4 @@ footer div h4 a{
     footer{
         width: 100%;
     }
-} 
+}  

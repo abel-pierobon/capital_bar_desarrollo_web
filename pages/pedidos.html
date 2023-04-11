@@ -9,63 +9,85 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/estilos.css">
     <title> pedidos</title>
-    
 </head>
 <body>
-    <header class="container-fluid" style="background-image: url(../img/capital_madera.png);">
-        <section class="row">
-            <div class="col-sm-12 col-md-12  col-xl-3">    
-                <img src="../img/capital_logo_sisi.png" alt="logo" class="img-fluid">  
-            </div>
-            <div class="col-sm-12 col-md-12 col-xl-9" style="align-items: end;">
-                <nav class="navbar bg-body-tertiary">
-                    <div>
-                        <a class="navbar-brand" href="../index.html">Inicio</a>
-                        <a class="navbar-brand" href="nosotros.html">Nosotros</a></li>
-                        <a class="navbar-brand" href="productos.html">Productos</a> </li>
-                        <a class="navbar-brand" href="pedidos.html">Pedidos</a></li>
-                        <a class="navbar-brand" href="contacto.html">Contacto</a></li>
+    <header style="background-color: #e4b41c;"">
+        <div class="row">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg">
+                    <img src="../img/capital_logo_sisi.png" alt="logo capital" width="140" height="100">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="Inicio" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pedidos.html">Pedidos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="buscar" aria-label="Search">
+                        <button class="btn btn-outline-dark" type="dark">Buscar</button>
+                        </form>
+                    </div>
                 </nav>
             </div>
-        </section>
+        </div>
     </header>
-    <main class="container">
-        <!-- Formulario de pedidos-->
-        <h1>Realiza tu pedido</h1>
+<main class="container">
+    <!-- Formulario de pedidos-->
+    <h1>Realiza tu pedido</h1>
+    <div class="row">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Direccion" aria-label="Direccion">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Telefono" aria-label="telefono">
+        </div>
+    </div>
+    <div class="container text-center">
         <div class="row">
             <div class="col">
-                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
-            </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Direccion" aria-label="Direccion">
-            </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Telefono" aria-label="telefono">
-            </div>
-        </div>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col">
-                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                        <option selected>Elegui tu producto</option>
-                        <option value="Hamburguesas">Hamburguesas</option>
-                        <option value="Pizza">Pizza</option>
-                        <option value="Lomito">Lomito</option>
-                    </select>
-                    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-                        <option selected>Cantidad</option>
-                        <option value="1">uno</option>
-                        <option value="2">dos</option>
-                        <option value="3">Tres</option>
-                    </select>
+                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <option selected>Elegui tu producto</option>
+                    <option value="Hamburguesas">Hamburguesas</option>
+                    <option value="Pizza">Pizza</option>
+                    <option value="Lomito">Lomito</option>
+                </select>
+                <div>
+                    <img src="../img/menu_hamburguesas.jpeg" alt="menu_hamburguesas" class="card_menu_h">
+                    <img src="../img/menu_pizza.jpeg" alt="menu_pizza" class="card_menu_h">
+                    <img src="../img/menu_lomos.jpeg" alt="menu_lomos" class="card_menu_h">
                 </div>
+                <select class="form-select form-select-sm" aria-label=".form-select-sm examplegit ">
+                    <option selected>Cantidad</option>
+                    <option value="1">uno</option>
+                    <option value="2">dos</option>
+                    <option value="3">Tres</option>
+                </select>
             </div>
         </div>
+    </div>
         
     </main>
     <footer class="container-fluid" style="background-color: #e4b41c;">
