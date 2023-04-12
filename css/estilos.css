@@ -36,11 +36,12 @@ body{
     background-color:#ebbb37; 
     z-index:100;
 } 
+/* logo de header */
 .img_header{
     width:100px;
     height:70px;
 }
-/* propiedades main */
+/* propiedades main para todas las paginas*/
 .card_main_index{
     background-color: #f4dc84; 
     background-image:radial-gradient(#6d2612 ,#ebbb37 );
@@ -48,18 +49,19 @@ body{
     padding: 20px; 
     padding-top: 120px;
     z-index: 0;
-}  
+} 
+ /*propiedades de mapa de la paginade contacto  */
 .mapa{ 
-    width:400px;
-    height:400px;
+    width:300px;
+    height:300px;
     border-style: solid;
     border-color: black;
     border-radius: 3%;
-    width="500" height="500" style="border:0.3;border-color="black " border-style="solid" ;
 }  
+/* propiedades h1 */
 h1{ 
     color:#ee0606;
-    font-size: 500%;
+    font-size: 400%;
     text-align: center;
     font-family:'Special Elite'; 
     font-weight:900;
@@ -68,6 +70,7 @@ h1{
     border::content;
     background-image: radial-gradient(#efcc61, #e4b412,#c0330c );
 } 
+/* propiedades h2 */
 h2{ 
     color:#ee0606;
     font-size: 250%;
@@ -76,10 +79,12 @@ h2{
     font-weight:900;
     background-image: radial-gradient(#efcc61, #e4b412,#c0330c );
 }
+/* propiedades h3 */
 h3{ 
     font-size: 25px;
     text-align: center;
 }
+/* propiedades de footer para todas las paginas */
 footer{
     background-color: #e4b41c; 
     opacity: 0.98;
@@ -89,17 +94,20 @@ footer div img{
     width: 20px;
     height: 20px;
 }
+/* para ubicar el simbolo de la red social al lado del enlace */
 .footer_ubicacion{
     display: flex;
     justify-content: flex-start;
     padding: 10px 2px;
     text-decoration: none;
 } 
+/* quitar decoracion enlaces de footer */
 footer div h4 a{
     text-decoration: none;
     color: black;
     padding: 20px 2px;
 }
+/* centrar imagenes en pagina producto */
 .main_centrar{
     display: flex;
     justify-content: space-around;
@@ -107,6 +115,7 @@ footer div h4 a{
     align-items: center;
     width: 100%;
 }
+/* ordenar contenidos en pagina de "nosotros" */
 .main_nosotros{
     display: flex;
     justify-content: center;
@@ -114,9 +123,11 @@ footer div h4 a{
     align-items: center;
     width: 100%;
 }
+/* color texto en nosotros */
 .main_nosotros_fondo{
     background-color: #ebbb37;
 }
+/* propiedades imagenes de productos en pagina productos */
 .img_productos{
     width: 300px;
     height: 300px;
@@ -125,9 +136,11 @@ footer div h4 a{
     border-style: solid;  
     transition: 2s;
 }
+/* animacion para agrandar imagenes de producto al hacer hover */
 .img_productos:hover{
     transform: scale(1.2,1.2);
 }
+/* imagen de lomito pagina producto */
 .img_productos_2{
     width: 786px;
     height: 500px;
@@ -135,26 +148,32 @@ footer div h4 a{
     border-color: black;
     border-style: solid;
 }
+/* propiedades de carousel de imagenes pagina index */
 #carouselExample{
     max-width: 500px; 
     margin: 0 auto; 
 }
+/* propiedades de carousel de imagenes pagina index */
 .carousel-inner {
     max-height: 700px; 
 }
+/* propiedades de carousel de imagenes pagina index */
 .carousel-item img {
     max-width: 100%; 
     height: auto; 
     margin: 0 auto;
 }
+/* propiedades imagenes de productos en pagina pedidos */
 .img_pedidos{
     width: 300px;
     height: 300px;
     transition: 2s;
 }
+/* animacion para agrandar imagenes de pedidos al hacer hover */
 .img_pedidos:hover{
     transform: scale(1.5,1.5);
 }
+/* MODIFICACIONES PARA MOVIL 576 PX */
 @media screen and (max-width: 576px) {
     .card_main_index{
         padding-top: 70px;
