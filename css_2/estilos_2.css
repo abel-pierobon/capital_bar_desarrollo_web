@@ -1,21 +1,21 @@
 /* letras */
-@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@400;700;800 & display=swap');
+/* @import url('https://fonts.googleapis.com/css2? family= Poppins:wght@400;700;800 & display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,700;0,800;1,800&family=Poppins:wght@400;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @font-face {
     font-family: ;
     src: url();
-}
+} */
 /* reset css */
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-} 
+}  */
 /* paleta de colores a usar  */
-.color {
+/* .color {
     background-color: #ebbb37 ;
     background-color: #e4b41c ;
     background-color: #6d2612  ;
@@ -25,41 +25,42 @@
     background-color: #c0330c;
     background-color: #333232;
     background-color: #ee0606;
-}
+} */
 /* propiedades body */
-body{
+/* body{
     background: url(../img/DALL·E\ 2023-03-23\ 12.44.42.png); 
-}
+} */
 /* propiedades header */
-.card_header{
+/* .card_header{
     position:fixed; 
     background-color:#e4b41c; 
     z-index:100;
-} 
+}  */
 /* logo de header */
-.img_header{
+/* .img_header{
     width:100px;
     height:70px;
-}
+} */
 /* color letras nav */
-.navbar-nav .nav-link {
-    color: #131111; /* Cambia el color a tu preferencia */
+/* .navbar-nav .nav-link {
+    color: #131111; 
     font-weight:500;
-}
+} */
 /* Cambiar el color de los enlaces al pasar el cursor por encima */
-.navbar-nav .nav-link:hover {
-    color: #ee0606; /* Cambia el color a tu preferencia */
-}
+/* .navbar-nav .nav-link:hover {
+    color: #ee0606;
+} */
 
 /* propiedades main para todas las paginas*/
-.card_main_index{
+/* .card_main{
     background-color: #f4dc84; 
     background-image:radial-gradient(#6d2612 ,#ebbb37 );
     opacity: 0.90;
     padding: 20px; 
     padding-top: 120px;
     z-index: 0;
-} 
+    height: 80vh;
+}  */
  /*propiedades de mapa de la pagina de contacto  */
 .mapa{ 
     width:500px;
@@ -69,7 +70,7 @@ body{
     border-radius: 3%;
 }  
 /* propiedades h1 */
-h1{ 
+/* h1{ 
     font-family: 'Posterama Pro 1945';
     color:#ee0606;
     font-size: 500%;
@@ -84,44 +85,44 @@ h1{
     background-image: radial-gradient(#efcc61, #e4b412,#c0330c );
     padding: 0;
     margin: 0px;
-} 
+}  */
 /* propiedades h2 */
-h2{ 
+/* h2{ 
     color:#ee0606;
     font-size: 250%;
     text-align: center;
-    /* font-family:'Special Elite';  */
+    font-family:'Special Elite';  
     font-weight:900;
     background-image: radial-gradient(#efcc61, #e4b412,#c0330c );
-}
+} */
 /* propiedades h3 */
-h3{ 
+/* h3{ 
     font-size: 25px;
     text-align: center;
-}
+} */
 /* propiedades de footer para todas las paginas */
-footer{
+/* footer{
     background-color:#e4b41c; 
     opacity: 0.98;
-}  
+}   */
 /* iconos footer */
-footer div img{
+/* footer div img{
     width: 20px;
     height: 20px;
-}
+} */
 /* para ubicar el simbolo de la red social al lado del enlace */
-.footer_ubicacion{
+/* .footer_ubicacion{
     display: flex;
     justify-content: flex-start;
     padding: 10px 2px;
     text-decoration: none;
-} 
+}  */
 /* quitar decoracion enlaces de footer */
-footer div h4 a{
+/* footer div h4 a{
     text-decoration: none;
     color: black;
     padding: 20px 2px;
-}
+} */
 /* centrar imagenes en pagina producto */
 .main_centrar{
     display: flex;
@@ -131,11 +132,11 @@ footer div h4 a{
     width: 100%;
 }
 /* propiedades imagenes de carrusell */
-.img_index_main{
+/* .img_index_main{
         width: 300px;
         height: 300px;
         padding: 2px;
-    }
+    } */
 /* ordenar contenidos en pagina de "nosotros" */
 .main_nosotros{
     display: flex;
@@ -149,51 +150,51 @@ footer div h4 a{
     background-color: #ebbb37;
 }
 /* propiedades imagenes de productos en pagina productos */
-.img_productos{
+/* .img_productos{
     width: 300px;
     height: 300px;
     border-radius: 3%;
     border-color: black;
     border-style: solid;  
     transition: 2s;
-}
+} */
 /* animacion para agrandar imagenes de producto al hacer hover */
-.img_productos:hover{
+/* .img_productos:hover{
     transform: scale(1.2,1.2);
-}
+} */
 /* imagen de lomito pagina producto */
-.img_productos_2{
+/* .img_productos_2{
     width: 786px;
     height: 500px;
     border-radius: 3%;
     border-color: black;
     border-style: solid;
-}
+} */
 /* propiedades de carousel de imagenes pagina index */
-#carouselExample{
+/* #carouselExample{
     max-width: 500px; 
     margin: 0 auto; 
 }
 /* propiedades de carousel de imagenes pagina index */
-.carousel-inner {
+/* .carousel-inner {
     max-height: 700px; 
-}
+} */
 /* propiedades de carousel de imagenes pagina index */
-.carousel-item img {
+/* .carousel-item img {
     max-width: 100%; 
     height: auto; 
     margin: 0 auto;
-}
+}  */
 /* propiedades imagenes de productos en pagina pedidos */
-.img_pedidos{
+/* .img_pedidos{
     width: 300px;
     height: 300px;
     transition: 2s;
-}
+} */
 /* animacion para agrandar imagenes de pedidos al hacer hover */
-.img_pedidos:hover{
+/* .img_pedidos:hover{
     transform: scale(1.5,1.5);
-}
+} */
 /* MODIFICACIONES PARA MOVIL 576 PX */
 @media screen and (max-width: 576px) {
     .card_main_index{
