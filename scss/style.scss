@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,700;0,800;1,800&family=Poppins:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@font-face {
+    font-family:'Poppins', sans-serif;
+    src: url();
+}
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} 
+/* paleta de colores a usar  */
+$color_primario: #ebbb37 ;
+$color_primaario_2: #e4b41c ;
+$color_marron: #6d2612  ;
+$color_marron_claro: #c0330c;
+$color_negro:#333232;
+$color_rojo: #ee0606;
+/* propiedades body */
+body{
+    background: url(../img/DALL·E\ 2023-03-23\ 12.44.42.png); 
+    .card_header{
+        position:fixed; 
+        background-color:#e4b41c; 
+        z-index:100;
+    }
+}
+.card_header{
+    .img_header{
+        width:100px;
+        height:70px;
+    }
+}
