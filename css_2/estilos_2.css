@@ -62,13 +62,13 @@
     height: 80vh;
 }  */
  /*propiedades de mapa de la pagina de contacto  */
-.mapa{ 
+/* .mapa{ 
     width:500px;
     height:500px;
     border-style: solid;
     border-color: black;
     border-radius: 3%;
-}  
+}   */
 /* propiedades h1 */
 /* h1{ 
     font-family: 'Posterama Pro 1945';
@@ -124,13 +124,13 @@
     padding: 20px 2px;
 } */
 /* centrar imagenes en pagina producto */
-.main_centrar{
+/* .main_centrar{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-}
+} */
 /* propiedades imagenes de carrusell */
 /* .img_index_main{
         width: 300px;
@@ -138,17 +138,17 @@
         padding: 2px;
     } */
 /* ordenar contenidos en pagina de "nosotros" */
-.main_nosotros{
+/* .main_nosotros{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-}
+} */
 /* color texto en nosotros */
-.main_nosotros_fondo{
+/* .main_nosotros_fondo{
     background-color: #ebbb37;
-}
+} */
 /* propiedades imagenes de productos en pagina productos */
 /* .img_productos{
     width: 300px;

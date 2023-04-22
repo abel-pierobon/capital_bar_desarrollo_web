@@ -16,13 +16,13 @@
 
 /* propiedades body */
 body {
-  /* background: url(../img/DALL·E\ 2023-03-23\ 12.44.42.png); */
+  background: url(../img/DALL·E\ 2023-03-23\ 12.44.42.png);
   z-index: 0;
 }
 body h1 {
   font-family: "Posterama Pro 1945";
   color: #ee0606;
-  font-size: 500%;
+  font-size: 400%;
   text-align: center;
   /*font-family:'Special Elite'; */
   font-weight: 900;
@@ -90,7 +90,7 @@ body footer div h4 a {
   opacity: 0.9;
   padding: 20px;
   padding-top: 120px;
-  z-index: 0;
+  z-index: 2;
 }
 .card_main .main_centrar {
   display: flex;
@@ -126,12 +126,16 @@ body footer div h4 a {
 }
 
 .img_index_main {
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: 300px;
   margin: 30px;
-  padding: 20px;
-  border-radius: 3%;
+  padding: 0.5px;
+  border-radius: 30px;
   border-style: solid;
+  transition: 2s;
+}
+.img_index_main:hover {
+  transform: scale(1.2, 1.2);
 }
 
 .video {
@@ -164,10 +168,18 @@ body footer div h4 a {
 }
 
 .img_pedidos {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   transition: 2s;
 }
 .img_pedidos:hover {
   transform: scale(1.5, 1.5);
+}
+
+.mapa {
+  width: 500px;
+  height: 500px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 3%;
 }/*# sourceMappingURL=style.css.map */
