@@ -53,28 +53,56 @@
             <h1>Realiza tu pedido</h1>
         </div>
         <!-- imagenes de los menues con animación -->
-        <div class="row">
+        <!-- <div class="row">
             <img src="../img/menu_hamburguesas.jpeg" class="img_pedidos" alt="menu">
             <img src="../img/menu_lomos.jpeg" class="img_pedidos" alt="menu">
             <img src="../img/menu_pizza.jpeg" class="img_pedidos" alt="menu">
             <img src="../img/menu_pizza_2.jpeg" class="img_pedidos" alt="menu">
-        </div>
+        </div> -->
         <!-- Formulario de pedidos-->
         <div class="row">
             <div class="col">
-                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                <h3>Datos de envío</h3>
+                <div>
+                    <input type="text" class="form-control datos_form" placeholder="Nombre" aria-label="First name">
+                    <input type="text" class="form-control datos_form" placeholder="Apellido" aria-label="Last name">
+                    <input type="text" class="form-control datos_form" placeholder="Direccion" aria-label="Direccion">
+                    <input type="text" class="form-control datos_form" placeholder="Telefono" aria-label="telefono">
+                </div>
             </div>
             <div class="col">
-                <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                <h3>Mira nuestra carta</h3>
+                <section class="row">
+                    <div id="carouselExample" class="carousel slide " max-width="100px" max-height="100px" >
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/horario.jpeg" class="d-block w-75 h-75" alt="horario">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/menu_hamburguesas.jpeg" class=" d-block w-75 h-75" alt="menu">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/menu_lomos.jpeg" class="d-block w-75 h-75" alt="menu">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/menu_pizza.jpeg" class="d-block w-75 h-75 " alt="menu">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/menu_pizza_2.jpeg" class="d-block w-75 h-75 " alt="menu">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </section>
             </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Direccion" aria-label="Direccion">
-            </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Telefono" aria-label="telefono">
-            </div>
+            
         </div>
         <div class="row">
             <div class="col-lg-3">

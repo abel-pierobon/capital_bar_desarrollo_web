@@ -44,8 +44,10 @@ body h2 {
   background-image: radial-gradient(#efcc61, #e4b412, #c0330c);
 }
 body h3 {
-  font-size: 25px;
+  color: #ee0606;
+  font-size: 35px;
   text-align: center;
+  background-image: radial-gradient(#efcc61, #e4b412, #c0330c);
 }
 body footer {
   background-color: #e4b41c;
@@ -167,13 +169,16 @@ body footer div h4 a {
   transform: scale(1.2, 1);
 }
 
-.img_pedidos {
-  width: 250px;
-  height: 250px;
-  transition: 2s;
-}
-.img_pedidos:hover {
-  transform: scale(1.5, 1.5);
+/*.img_pedidos{
+    width: 250px;
+    height: 250px;
+    transition: 2s;
+    &:hover{
+        transform: scale(1.5,1.5);
+    }
+}*/
+.datos_form {
+  margin: 10px;
 }
 
 .mapa {
