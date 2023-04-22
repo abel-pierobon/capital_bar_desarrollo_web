@@ -16,7 +16,8 @@
 
 /* propiedades body */
 body {
-  background: url(../img/DALL·E\ 2023-03-23\ 12.44.42.png);
+  /* background: url(../img/DALL·E\ 2023-03-23\ 12.44.42.png); */
+  z-index: 0;
 }
 body h1 {
   font-family: "Posterama Pro 1945";
@@ -98,17 +99,75 @@ body footer div h4 a {
   align-items: center;
   width: 100%;
 }
+
 #carouselExample {
   max-width: 500px;
   margin: 0 auto;
 }
+
 /* propiedades de carousel de imagenes pagina index */
 .carousel-inner {
   max-height: 700px;
 }
+
 /* propiedades de carousel de imagenes pagina index */
 .carousel-item img {
   max-width: 100%;
   height: auto;
   margin: 0 auto;
+}
+
+.main_promos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.img_index_main {
+  width: 500px;
+  height: 500px;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 3%;
+  border-style: solid;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+.img_productos {
+  width: 300px;
+  height: 300px;
+  border-radius: 3%;
+  border-color: black;
+  border-style: solid;
+  transition: 2s;
+}
+.img_productos:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.img_productos_2 {
+  width: 786px;
+  height: 500px;
+  border-radius: 3%;
+  border-color: black;
+  border-style: solid;
+  transition: 2s;
+}
+.img_productos_2:hover {
+  transform: scale(1.2, 1);
+}
+
+.img_pedidos {
+  width: 300px;
+  height: 300px;
+  transition: 2s;
+}
+.img_pedidos:hover {
+  transform: scale(1.5, 1.5);
 }/*# sourceMappingURL=style.css.map */

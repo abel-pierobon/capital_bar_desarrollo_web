@@ -14,7 +14,8 @@
 
 /* propiedades body */
 body{
-    background: url(../img/DALL·E\ 2023-03-23\ 12.44.42.png); 
+   /* background: url(../img/DALL·E\ 2023-03-23\ 12.44.42.png); */
+    z-index: 0;
     h1{ 
         font-family: 'Posterama Pro 1945';
         color:$color_rojo;
