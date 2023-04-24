@@ -28,10 +28,17 @@
     border-style: solid;
     transition: 2s;
     &:hover{
-        transform: scale(1.2,1.2);
+        transform: scale(1.4,1.4);
     }
 }
 .video{
     display: flex;
     justify-content: center;
+    .video_index{
+         width: 1200px;
+         height: 350px;
+         object-fit: fill;
+         z-index: 1;
+    }
 }
+

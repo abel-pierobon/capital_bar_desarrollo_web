@@ -16,8 +16,8 @@
     <!-- encabezado -->
     <header class="container-fluid card_header">
         <div class="row">
-            <div class="container-fluid">
-                <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid row">
+                <nav class="navbar navbar-expand-lg col-sm-11 col-md-11 col-lg-11 ">
                     <!-- imagen de logo -->
                     <a href="index.html">
                         <img src="img/capital_logo_sisi.png" alt="logo capital" class="img_header">
@@ -44,14 +44,16 @@
                                 <a class="nav-link" href="pages/contacto.html">Contacto</a>
                             </li>
                         </ul>
-                        <a href="pages/carrito.html">
-                        <img src="img/carrito.png" alt="imagen delivery" class="img_delivery">
-                        </a>
                         <!-- busqueda -->
                         <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="buscar" aria-label="Search">
                         <button class="btn btn-outline-success" type="dark">Buscar</button>
                         </form>
+                    </div>
+                    <div col-sm-1 col-md-1 col-lg-1 >
+                        <a href="pages/carrito.html">
+                            <img src="img/carrito.png" alt="imagen delivery" class="img_delivery">
+                        </a>
                     </div>
                 </nav>
             </div>
@@ -60,7 +62,7 @@
     <main class="container card_main"> 
         <!--  principales  -->
             <div class="row video"> 
-            <video autoplay loop muted style="width: 1200px; height: 350px; object-fit: fill; z-index: 1;">
+            <video autoplay loop muted class="video_index">
                 <source src="video/video_index.mp4" type="video/mp4">
             </video>
             </div>

@@ -64,17 +64,8 @@
         </div> -->
         <!-- Formulario de pedidos-->
         <div class="row">
-            <div class="col">
-                <h3>Datos de envío</h3>
-                <div>
-                    <input type="text" class="form-control datos_form" placeholder="Nombre" aria-label="First name">
-                    <input type="text" class="form-control datos_form" placeholder="Apellido" aria-label="Last name">
-                    <input type="text" class="form-control datos_form" placeholder="Direccion" aria-label="Direccion">
-                    <input type="text" class="form-control datos_form" placeholder="Telefono" aria-label="telefono">
-                </div>
-            </div>
-            <div class="col">
-                <h3>Mira nuestra carta</h3>
+            <div class="col col-sm-12 col-md-12 col-lg-6">
+                <h3>Desliza para ver la carta</h3>
                 <section class="row">
                     <div id="carouselExample" class="carousel slide " max-width="100px" max-height="100px" >
                         <div class="carousel-inner">
@@ -105,10 +96,20 @@
                     </div>
                 </section>
             </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <h3>Datos de envío</h3>
+                <div>
+                    <input type="text" class="form-control datos_form" placeholder="Nombre" aria-label="First name">
+                    <input type="text" class="form-control datos_form" placeholder="Apellido" aria-label="Last name">
+                    <input type="text" class="form-control datos_form" placeholder="Direccion" aria-label="Direccion">
+                    <input type="text" class="form-control datos_form" placeholder="Telefono" aria-label="telefono">
+                </div>
+            </div>
+    
             
         </div>
-        <div class="row">
-            <div class="col-lg-3">
+        <div class="row main_form">
+            <div class="col-lg-3 datos_form">
                 <button type="button" class="btn btn-warning"">Hamburguesas</button>
                 <div>
                     <select class="form-select form-select-lg mb-2" aria-label=".form-select-lg example">
@@ -124,8 +125,11 @@
                         <option value="3">Tres o más</option>
                     </select>
                 </div>
+                <div>
+                    <button type="button" class="btn btn-warning mt-3">Agregar al pedido</button>
+                </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 datos_form">
                 <button type="button" class="btn btn-warning">Lomitos</button>
                 <div class="col">
                     <select class="form-select form-select-lg mb-2">
@@ -141,8 +145,11 @@
                         <option value="3">Tres o más</option>
                     </select>
                 </div>
+                <div>
+                    <button type="button" class="btn btn-warning mt-3">Agregar al pedido</button>
+                </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 datos_form">
                 <button type="button" class="btn btn-warning">Pizzas</button>
                 <div class="col">
                     <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
@@ -159,9 +166,9 @@
                         <option value="3">Tres o más</option>
                     </select>
                 </div>
-            </div>
-            <div>
-                <button type="button" class="btn btn-warning mt-3">Enviar pedido</button>
+                <div>
+                    <button type="button" class="btn btn-warning mt-3">Agregar al pedido</button>
+                </div>
             </div>
     </main>
     <footer class="container-fluid">
