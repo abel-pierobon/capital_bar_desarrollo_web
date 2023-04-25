@@ -1,0 +1,23 @@
+.img_carrito{
+    width: 150px;
+    height: 150px;
+}
+.fondo_carrito{
+    background-color: $color_negro;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: solid;
+}
+.carrito_centrar{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.listas{
+    color: antiquewhite;
+    font-size: 20px;
+}
+    

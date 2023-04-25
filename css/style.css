@@ -28,12 +28,10 @@ body h1 {
   font-weight: 900;
   justify-items: center;
   justify-content: center;
-  /* border-radius: 0%;
-  border-color: #ee0606;
-  border-style:ridge; */
   background-image: radial-gradient(#efcc61, #e4b412, #c0330c);
+  opacity: 0.7;
   padding: 0;
-  margin: 0px;
+  margin: 10px;
 }
 body h2 {
   color: #ee0606;
@@ -42,12 +40,16 @@ body h2 {
   /* font-family:'Special Elite';  */
   font-weight: 900;
   background-image: radial-gradient(#efcc61, #e4b412, #c0330c);
+  margin-top: 10px;
 }
 body h3 {
   color: #ee0606;
   font-size: 35px;
   text-align: center;
   background-image: radial-gradient(#efcc61, #e4b412, #c0330c);
+}
+body h5 {
+  color: #ee0606;
 }
 body footer {
   background-color: #e4b41c;
@@ -189,6 +191,10 @@ body footer div h4 a {
 }*/
 .datos_form {
   margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-around;
 }
 
 .main_form {
@@ -206,6 +212,32 @@ body footer div h4 a {
   border-style: solid;
   border-color: black;
   border-radius: 3%;
+}
+
+.img_carrito {
+  width: 150px;
+  height: 150px;
+}
+
+.fondo_carrito {
+  background-color: #333232;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: solid;
+}
+
+.carrito_centrar {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.listas {
+  color: antiquewhite;
+  font-size: 20px;
 }
 
 /* MODIFICACIONES PARA MOVIL 576 PX */
@@ -275,7 +307,7 @@ body footer div h4 a {
   .video_index {
     width: 200px;
     height: 50px;
-    object-fit: fill;
+    /*object-fit: fill;*/
     z-index: 1;
   }
 }/*# sourceMappingURL=style.css.map */
