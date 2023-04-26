@@ -210,6 +210,26 @@ body div h4 a {
   border-radius: 3%;
 }
 
+.main_nosotros_fondo {
+  background-color: #ebbb37;
+}
+
+.main_nosotros {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.main_centrar {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
 .img_carrito {
   width: 150px;
   height: 150px;
