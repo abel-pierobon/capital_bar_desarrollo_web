@@ -3,7 +3,9 @@
     height: 150px;
 }
 .fondo_carrito{
-    background-color: $color_negro;
+    background-color: $color_primario_2;
+    border-radius: 10px;
+    background-image:radial-gradient(#6d2612 ,#ebbb37 );
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -12,6 +14,7 @@
     border: solid;
 }
 .carrito_centrar{
+    display: flex;
     align-items: center;
     justify-content: center;
     align-content: center;

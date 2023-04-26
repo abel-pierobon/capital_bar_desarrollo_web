@@ -14,19 +14,17 @@
 
 /* propiedades body */
 body{
-   background: url(../img/DALL·E\ 2023-03-23\ 12.44.42.png);
+    background: url(../img/madera.png);
     z-index: 1;
     h1{ 
         font-family: 'Posterama Pro 1945';
         color:$color_rojo;
         font-size: 400%;
         text-align: center;
-        /*font-family:'Special Elite'; */ 
         font-weight:900;
         justify-items: center;
         justify-content: center;
         background-image: radial-gradient(#efcc61, #e4b412,#c0330c );
-        opacity: 0.7;
         padding: 0;
         margin: 10px;
     }
@@ -34,7 +32,6 @@ body{
         color:#ee0606;
         font-size: 250%;
         text-align: center;
-        /* font-family:'Special Elite';  */
         font-weight:900;
         background-image: radial-gradient(#efcc61, #e4b412,#c0330c );
         margin-top: 10px;
@@ -51,6 +48,7 @@ body{
     footer{
         background-color:#e4b41c; 
         opacity: 0.98;
+        }  
         div img{
             width: 20px;
             height: 20px;
@@ -66,5 +64,5 @@ body{
             color: black;
             padding: 20px 2px;
         }  
-    }  
-}
+}  
+
