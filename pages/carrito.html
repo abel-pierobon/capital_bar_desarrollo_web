@@ -59,7 +59,7 @@
             </div>
             <div class="row carrito_centrar">
                 <div class="col-sm-12 col-md-12 col-lg-5">
-                    <div class="card fondo_carrito" style="width: 30rem; height: 20rem;">
+                    <div class="card fondo_carrito"">
                         <!-- <img src="../img/delivery_2-removebg.png" class="card-img-top img_carrito" alt="delivery"> -->
                         <div class="card-body">
                             <table class="table forma_pago">
@@ -106,7 +106,6 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">Total a pagar</th>
-                                    <td colspan="2"></td>
                                     <td> $ 5760.50</td>
                                 </tbody>
                             </table>
@@ -123,7 +122,7 @@
                                 <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
                                 <label class="btn btn-outline-success forma_pago" for="btnradio2">CRÉDITO</label>
                                 <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-                                <label class="btn btn-outline-success forma_pago" for="btnradio3">MERCADO PAGO</label>
+                                <label class="btn btn-outline-success forma_pago" for="btnradio3">M. PAGO</label>
                                 <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
                                 <label class="btn btn-outline-success forma_pago" for="btnradio4">EFECTIVO</label>
                             </div>
@@ -132,7 +131,7 @@
                     <div class="row">
                         <input type="text" class="form-control datos_form" placeholder="Número de tarjeta" aria-label="numero de tarjeta">
                         <input type="text" class="form-control datos_form" placeholder="Titular como figura en la tarjeta" aria-label="titular tarjeta">
-                        <div class="row">
+                        <div class="row carrito_centrar">
                             <div class="col-sm-3 col-md-3 col-lg-3">
                                 <input type="text" class="form-control datos_form" placeholder="DNI" aria-label="DNI">
                             </div>
@@ -143,9 +142,12 @@
                                 <input type="text" class="form-control datos_form" placeholder="DD/AA" aria-label="vencimiento">
                             </div>
                         </div>
-                        <button type="button" class="btn btn-success">Pagar</button>
+                        <!-- <button type="button" class="btn btn-success">Pagar</button> -->
                     </div>
                 </div>
+            </div>
+            <div class="row">
+                <button type="button" class="btn btn-success">Pagar</button>
             </div>
         </div>
     </main>
