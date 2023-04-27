@@ -8,16 +8,18 @@
         height:49px;
     }
     h1{
-        font-size: 200%;
+        font-size: 50px;
         /* margin top: 5px; */
     }
     h2{
         font-size: 100%;
     }
     .img_index_main{
-        width: 100px;
-        height: 100px;
+        width: 250px;
+        height: 250px;
         padding: 2px;
+        display: flex;
+        justify-content: center;
     }
     #carouselExample{
         max-width: 400px; 
@@ -63,9 +65,15 @@
         display: none;
     }
     .video_index{
-        width: 200px;
+        width: 100px;
         height: 50px;
         /*object-fit: fill;*/
         z-index: 1;
-}
+    }
+    .movil{
+        display: contents;
+    }
+    .main_promos{
+        display: none;
+    }
 }
