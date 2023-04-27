@@ -5,7 +5,8 @@
 .fondo_carrito{
     background-color: $color_primario_2;
     border-radius: 10px;
-    background-image:radial-gradient(#6d2612 ,#ebbb37 );
+    background-image:radial-gradient($color_primario_2,$color_marron_claro  );
+    opacity: 0.8;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -20,7 +21,18 @@
     align-content: center;
 }
 .listas{
-    color: antiquewhite;
+    color: $color_rojo;
     font-size: 20px;
+    text-decoration: none;
+    border:thin;
 }
-    
+.boton_carrito{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content:space-between;
+}   
+.forma_pago{
+    color: antiquewhite;
+    font-weight: 700;
+} 

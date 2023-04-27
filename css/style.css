@@ -130,8 +130,8 @@ body div h4 a {
 }
 
 .img_index_main {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   margin: 30px;
   padding: 0.5px;
   border-radius: 30px;
@@ -139,7 +139,7 @@ body div h4 a {
   transition: 2s;
 }
 .img_index_main:hover {
-  transform: scale(1.4, 1.4);
+  transform: scale(1.3, 1.3);
 }
 
 .video {
@@ -238,7 +238,8 @@ body div h4 a {
 .fondo_carrito {
   background-color: #e4b41c;
   border-radius: 10px;
-  background-image: radial-gradient(#6d2612, #ebbb37);
+  background-image: radial-gradient(#e4b41c, #c0330c);
+  opacity: 0.8;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -255,8 +256,22 @@ body div h4 a {
 }
 
 .listas {
-  color: antiquewhite;
+  color: #ee0606;
   font-size: 20px;
+  text-decoration: none;
+  border: thin;
+}
+
+.boton_carrito {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.forma_pago {
+  color: antiquewhite;
+  font-weight: 700;
 }
 
 /* MODIFICACIONES PARA MOVIL 576 PX */
