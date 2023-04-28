@@ -229,7 +229,10 @@ body div h4 a {
 }
 
 .mapa {
-  width: 500px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 200px;
   height: 500px;
   border-style: solid;
   border-color: black;
