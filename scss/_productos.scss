@@ -8,6 +8,9 @@
     &:hover{
         transform: scale(1.2,1.2);
     }
+} 
+.productos_mq{
+    display: contents;
 }
 .img_productos_2{
     width: 786px;
@@ -19,4 +22,7 @@
     &:hover{
         transform: scale(1.2,1);
     }
+}
+.movil_p{
+    display: none;
 }
