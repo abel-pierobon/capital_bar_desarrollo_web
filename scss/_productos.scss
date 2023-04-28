@@ -26,3 +26,21 @@
 .movil_p{
     display: none;
 }
+#carouselhamburguesas{
+    @extend #carouselExample;
+}
+#carouselpizza{
+    @extend #carouselExample;
+}
+#carouselempanadas{
+    @extend #carouselExample;
+}
+.carousel-inner{
+    max-height: 900px; 
+}
+/* propiedades de carousel de imagenes pagina index */
+.carousel-item img {
+    max-width: 90%; 
+    height: auto; 
+    margin: 0 auto;
+}
