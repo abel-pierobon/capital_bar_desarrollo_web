@@ -266,6 +266,8 @@ body div h4 a {
   flex-direction: column;
   align-content: center;
   align-items: center;
+  justify-content: center;
+  justify-items: center;
   border-radius: 10px;
   border: solid;
 }
@@ -277,6 +279,15 @@ body div h4 a {
 main div .forma_pago {
   color: antiquewhite;
   font-weight: 700;
+}
+main tr td div .boton_carrito {
+  display: flex;
+  justify-content: flex-start;
+}
+main tr td div span {
+  color: green;
+  font-weight: 700;
+  margin: 2px;
 }
 
 /* MODIFICACIONES PARA MOVIL 576 PX */

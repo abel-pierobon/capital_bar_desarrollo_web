@@ -6,12 +6,14 @@
     .fondo_carrito{
         background-color: $color_primario_2;
         border-radius: 10px;
-        background-image:radial-gradient($color_primario_2,$color_marron_claro  );
+        background-image:radial-gradient($color_primario_2,$color_marron_claro );
         opacity: 0.8;
         display: flex;
         flex-direction: column;
         align-content: center;
         align-items: center;
+        justify-content: center;
+        justify-items: center;
         border-radius: 10px;
         border: solid;
         .forma_pago{
@@ -26,6 +28,24 @@ main{
             color: antiquewhite;
             font-weight: 700;
         }
-    }   
+    }
+    tr{
+        td{
+            div{
+                .boton_carrito{
+                    display: flex;
+                    justify-content:flex-start;
+                }
+                span{
+                    color: green;
+                    font-weight: 700;
+                    margin: 2px;
+                }
+            }   
+        }
+    }
 } 
+
+
+
 
