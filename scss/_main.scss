@@ -1,6 +1,6 @@
 .card_main{
     background-color: $color_primario; 
-    background-image:radial-gradient(#6d2612 ,#ebbb37 );
+    background-image:radial-gradient($color_marron,$color_primario );
     padding: 20px; 
     padding-top: 120px;
     z-index: 1;

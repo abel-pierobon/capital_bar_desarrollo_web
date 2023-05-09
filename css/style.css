@@ -21,18 +21,23 @@ body {
   object-fit: fill;
 }
 body h1 {
-  font-family: "Posterama Pro 1945";
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #ee0606;
-  font-size: 400%;
-  text-align: center;
-  font-weight: 900;
+  /*-webkit-text-stroke: black 1px;*/
+  font-size: 250%;
+  display: flex;
+  justify-content: center;
+  text-align: start;
+  font-weight: 700;
   justify-items: center;
   justify-content: center;
+  /*background: url(../img/madera_h1_3.png);
+  background: url(../img/madera_3.jpg);*/
   background-image: radial-gradient(#efcc61, #e4b412, #c0330c);
-  background: url(../img/madera_3.jpg);
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 0;
   margin: 10px;
+  width: 40%;
 }
 body h2 {
   color: #ee0606;
