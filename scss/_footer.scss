@@ -1,0 +1,6 @@
+footer{
+    .alinear_footer{
+        @extend .main_centrar;
+        justify-content: space-between;
+    }
+}
