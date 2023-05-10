@@ -3,6 +3,11 @@
     align-items: center;
     justify-content: center;
     align-content: center;
+    flex-wrap: wrap;
+    .img_carrito{
+        width: 100px;
+        height: 100px;
+    }
     .fondo_carrito{
         background-color: $color_primario_2;
         border-radius: 10px;
@@ -16,10 +21,10 @@
         justify-items: center;
         border-radius: 10px;
         border: solid;
+    }
         .forma_pago{
             color: antiquewhite;
             font-weight: 700;
-        } 
     }
 }
 main{
@@ -45,6 +50,14 @@ main{
         }
     }
 } 
+.move-image {
+    position: relative;
+    left: 0;
+    transition: left 1s ease-in-out;
+}
+.move-image.move {
+    left: 1200px; /* Ajusta la cantidad de desplazamiento aquí */
+}
 
 
 

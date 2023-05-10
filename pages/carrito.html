@@ -58,14 +58,14 @@
     </header>
     <main class="container card_main">
         <div class="container">
-            <div>
+            <div class="row h1_main">
                 <h1>TU PEDIDO</h1>
             </div>
             <!-- seccion de carrito de pedidos realizados -->
             <div class="row carrito_centrar">
                 <div class="col-sm-12 col-md-12 col-lg-4">
                     <div class="card fondo_carrito"">
-                        <!-- <img src="../img/delivery_2-removebg.png" class="card-img-top img_carrito" alt="delivery"> -->
+                        <img src="../img/delivery_2-removebg.png" class="card-img-top img_carrito move-image" id="myImage" alt="delivery">
                         <div class="card-body">
                             <table class="table forma_pago">
                                 <thead>
@@ -174,16 +174,13 @@
                                     <option value="2030">2030</option>
                                 </select>
                             </div>
-                            <!-- <div class="col-3 col-sm-3 col-md-3 col-lg-3">
-                                <input type="text" class="form-control datos_form" placeholder="DD/AA" aria-label="vencimiento">
-                            </div> -->
                         </div>
                     </div>
                 </div>
             </div>
             <!-- boton pagar -->
             <div class="row">
-                <button type="button" class="btn btn-success">Pagar</button>
+                <button type="button" class="btn btn-success" onclick="document.getElementById('myImage').classList.add('move')">Pagar</button> 
             </div>
         </div>
     </main>

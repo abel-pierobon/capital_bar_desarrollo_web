@@ -8,8 +8,12 @@
     }
     .navbar-nav{
         .nav-link{
-            color:$color_marron;
-            font-weight: 500;
+            color:$color_negro;
+            font-weight: 700;
+            padding: 1px;
+            border-color: $color_negro;
+            border-radius: 5px;
+            margin: 5px;
             &:hover{
                 color:$color_rojo
             }

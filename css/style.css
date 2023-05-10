@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* paleta de colores a usar  */
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,700;0,800;1,800&family=Poppins:wght@400;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
@@ -21,20 +22,16 @@ body {
   object-fit: fill;
 }
 body h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /*font-family: "Posterama Pro 1945";*/
   color: #ee0606;
-  /*-webkit-text-stroke: black 1px;*/
-  font-size: 250%;
+  /*-webkit-text-stroke: $color_negro 1px;*/
+  font-size: 400%;
   display: flex;
   justify-content: center;
-  text-align: start;
-  font-weight: 700;
-  justify-items: center;
-  justify-content: center;
-  /*background: url(../img/madera_h1_3.png);
-  background: url(../img/madera_3.jpg);*/
-  background-image: radial-gradient(#efcc61, #e4b412, #c0330c);
-  border-radius: 5px;
+  font-weight: 900;
+  background-color: #ebbb37;
+  background-image: radial-gradient(#e4b412, #efcc61);
+  border-radius: 10px;
   padding: 0;
   margin: 10px;
   width: 40%;
@@ -44,14 +41,15 @@ body h2 {
   font-size: 250%;
   text-align: center;
   font-weight: 900;
-  background-image: radial-gradient(#efcc61, #e4b412, #c0330c);
+  background-image: radial-gradient(#efcc61, #e4b412);
+  border-radius: 10px;
   margin-top: 10px;
 }
 body h3 {
   color: #ee0606;
   font-size: 35px;
   text-align: center;
-  background-image: radial-gradient(#efcc61, #e4b412, #c0330c);
+  background-image: radial-gradient(#efcc61, #e4b412);
 }
 body h5 {
   color: #ee0606;
@@ -86,8 +84,12 @@ body div h4 a {
   height: 70px;
 }
 .card_header .navbar-nav .nav-link {
-  color: #6d2612;
-  font-weight: 500;
+  color: #333232;
+  font-weight: 700;
+  padding: 1px;
+  border-color: #333232;
+  border-radius: 5px;
+  margin: 5px;
 }
 .card_header .navbar-nav .nav-link:hover {
   color: #ee0606;
@@ -111,6 +113,12 @@ body div h4 a {
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
+}
+
+.h1_main {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
 }
 
 footer .alinear_footer {
@@ -270,6 +278,11 @@ footer .alinear_footer {
   align-items: center;
   justify-content: center;
   align-content: center;
+  flex-wrap: wrap;
+}
+.carrito_centrar .img_carrito {
+  width: 100px;
+  height: 100px;
 }
 .carrito_centrar .fondo_carrito {
   background-color: #e4b41c;
@@ -285,7 +298,7 @@ footer .alinear_footer {
   border-radius: 10px;
   border: solid;
 }
-.carrito_centrar .fondo_carrito .forma_pago {
+.carrito_centrar .forma_pago {
   color: antiquewhite;
   font-weight: 700;
 }
@@ -304,6 +317,16 @@ main tr td div span {
   margin: 2px;
 }
 
+.move-image {
+  position: relative;
+  left: 0;
+  transition: left 1s ease-in-out;
+}
+
+.move-image.move {
+  left: 1200px; /* Ajusta la cantidad de desplazamiento aquí */
+}
+
 /* MODIFICACIONES PARA MOVIL 576 PX */
 @media screen and (max-width: 576px) {
   .card_main_index {
@@ -314,11 +337,11 @@ main tr td div span {
     height: 49px;
   }
   body h1 {
-    font-size: 50px;
+    font-size: 30px;
     /* margin top: 5px; */
   }
   body h2 {
-    font-size: 30px;
+    font-size: 25px;
   }
   .img_index_main {
     width: 250px;

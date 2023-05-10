@@ -19,20 +19,16 @@ body{
     z-index: 1;
     object-fit: fill;
     h1{ 
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        /*font-family: "Posterama Pro 1945";*/
         color: $color_rojo;
-        /*-webkit-text-stroke: black 1px;*/
-        font-size: 250%;
+        /*-webkit-text-stroke: $color_negro 1px;*/
+        font-size: 400%;
         display: flex;
         justify-content: center;
-        text-align:start;
-        font-weight:700;
-        justify-items: center;
-        justify-content: center;
-        /*background: url(../img/madera_h1_3.png);
-        background: url(../img/madera_3.jpg);*/
-        background-image: radial-gradient(#efcc61, #e4b412,#c0330c );
-        border-radius: 5px;
+        font-weight:900;
+        background-color: $color_primario;
+        background-image: radial-gradient(#e4b412,#efcc61 );
+        border-radius: 10px;
         padding: 0;
         margin: 10px;
         width: 40%;
@@ -42,14 +38,15 @@ body{
         font-size: 250%;
         text-align: center;
         font-weight:900;
-        background-image: radial-gradient(#efcc61, #e4b412,#c0330c );
+        background-image: radial-gradient(#efcc61, #e4b412 );
+        border-radius: 10px;
         margin-top: 10px;
     }
     h3{ 
         color:#ee0606;
         font-size: 35px;
         text-align: center;
-        background-image: radial-gradient(#efcc61, #e4b412,#c0330c );
+        background-image: radial-gradient(#efcc61, #e4b412 );
     }
     h5{
         color: $color_rojo;
