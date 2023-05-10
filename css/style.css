@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* paleta de colores a usar  */
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,700;0,800;1,800&family=Poppins:wght@400;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
@@ -280,11 +279,8 @@ footer .alinear_footer {
   align-content: center;
   flex-wrap: wrap;
 }
-.carrito_centrar .img_carrito {
-  width: 100px;
-  height: 100px;
-}
-.carrito_centrar .fondo_carrito {
+
+.fondo_carrito {
   background-color: #e4b41c;
   border-radius: 10px;
   background-image: radial-gradient(#e4b41c, #c0330c);
@@ -297,8 +293,10 @@ footer .alinear_footer {
   justify-items: center;
   border-radius: 10px;
   border: solid;
+  margin: 10px;
 }
-.carrito_centrar .forma_pago {
+
+.forma_pago {
   color: antiquewhite;
   font-weight: 700;
 }
@@ -317,14 +315,19 @@ main tr td div span {
   margin: 2px;
 }
 
-.move-image {
-  position: relative;
-  left: 0;
-  transition: left 1s ease-in-out;
+.img_carrito {
+  width: 100px;
+  height: 100px;
 }
 
-.move-image.move {
-  left: 1200px; /* Ajusta la cantidad de desplazamiento aquí */
+.mov_img {
+  position: relative;
+  left: 0;
+  transition: left 5s;
+}
+.mov_img.mov {
+  transform: rotate(-30deg);
+  left: 590px;
 }
 
 /* MODIFICACIONES PARA MOVIL 576 PX */
@@ -416,5 +419,8 @@ main tr td div span {
     justify-content: space-between;
     justify-items: center;
     align-content: center;
+  }
+  .mov_img.mov {
+    left: 150px;
   }
 }/*# sourceMappingURL=style.css.map */

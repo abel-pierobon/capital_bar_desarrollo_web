@@ -88,4 +88,9 @@
         justify-items: center;
         align-content: center;
     }
+    .mov_img{
+        &.mov{
+            left: 150px;
+        }
+    }
 }
