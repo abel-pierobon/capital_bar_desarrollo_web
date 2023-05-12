@@ -53,25 +53,6 @@ body h3 {
 body h5 {
   color: #ee0606;
 }
-body footer {
-  background-color: #e4b41c;
-  opacity: 0.98;
-}
-body div img {
-  width: 20px;
-  height: 20px;
-}
-body .footer_ubicacion {
-  display: flex;
-  justify-content: flex-start;
-  padding: 10px 2px;
-  text-decoration: none;
-}
-body div h4 a {
-  text-decoration: none;
-  color: black;
-  padding: 20px 2px;
-}
 
 .card_header {
   position: fixed;
@@ -106,7 +87,8 @@ body div h4 a {
   z-index: 1;
   opacity: 0.98;
 }
-.card_main .main_centrar, .card_main footer .alinear_footer, footer .card_main .alinear_footer {
+
+.main_centrar, .alinear_footer {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -120,7 +102,30 @@ body div h4 a {
   margin: 20px;
 }
 
-footer .alinear_footer {
+footer {
+  background-color: #e4b41c;
+  opacity: 0.98;
+}
+
+div img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer_ubicacion {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 2px;
+  text-decoration: none;
+}
+
+div h4 a {
+  text-decoration: none;
+  color: black;
+  padding: 20px 2px;
+}
+
+.alinear_footer {
   justify-content: space-between;
 }
 
@@ -262,14 +267,17 @@ footer .alinear_footer {
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
+  opacity: 0.85;
 }
 
-.main_centrar, footer .alinear_footer {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 100%;
+.img_nosotros {
+  width: 450px;
+  height: 200px;
+  border-radius: 3%;
+  border-color: black;
+  border-style: solid;
+  padding: 1px;
+  margin: 10px;
 }
 
 .carrito_centrar {

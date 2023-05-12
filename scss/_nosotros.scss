@@ -7,11 +7,14 @@
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
+    opacity: 0.85;
 }
-.main_centrar{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
+.img_nosotros{
+    width: 450px;
+    height: 200px;
+    border-radius: 3%;
+    border-color: black;
+    border-style: solid;
+    padding: 1px;
+    margin: 10px;
 }

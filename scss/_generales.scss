@@ -51,24 +51,5 @@ body{
     h5{
         color: $color_rojo;
     }
-    footer{
-        background-color:#e4b41c; 
-        opacity: 0.98;
-        }  
-        div img{
-            width: 20px;
-            height: 20px;
-        }
-        .footer_ubicacion{
-            display: flex;
-            justify-content: flex-start;
-            padding: 10px 2px;
-            text-decoration: none;
-        } 
-        div h4 a{
-            text-decoration: none;
-            color: black;
-            padding: 20px 2px;
-        }  
 }  
 
