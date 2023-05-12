@@ -20,36 +20,36 @@ body{
     object-fit: fill;
     h1{ 
         /*font-family: "Posterama Pro 1945";*/
-        color: $color_rojo;
+        color:$color5;
         /*-webkit-text-stroke: $color_negro 1px;*/
         font-size: 400%;
         display: flex;
         justify-content: center;
         font-weight:900;
-        background-color: $color_primario;
-        background-image: radial-gradient(#e4b412,#efcc61 );
+        background-color: $color1;
+        background-image: radial-gradient($color1,$color4 );
         border-radius: 10px;
         padding: 0;
         margin: 10px;
         width: 40%;
     }
     h2{ 
-        color:#ee0606;
+        color:$color5;
         font-size: 250%;
         text-align: center;
         font-weight:900;
-        background-image: radial-gradient(#efcc61, #e4b412 );
+        background-image: radial-gradient($color1, $color4 );
         border-radius: 10px;
         margin-top: 10px;
     }
     h3{ 
-        color:#ee0606;
+        color:$color5;
         font-size: 35px;
         text-align: center;
-        background-image: radial-gradient(#efcc61, #e4b412 );
+        background-image: radial-gradient($color1, $color4 );
     }
     h5{
-        color: $color_rojo;
+        color: $color5;
     }
 }  
 

@@ -1,7 +1,29 @@
 /* paleta de colores a usar  */
-$color_primario: #ebbb37 ;
-$color_primario_2: #e4b41c ;
-$color_marron: #6d2612  ;
-$color_marron_claro: #c0330c;
-$color_negro:#333232;
-$color_rojo: #ee0606;
+
+$color1: #e2b419;
+$color2: #6d2612;
+$color3: #c0330c;
+$color4: #e0af28;
+$color5: #ee0606;
+/* elegir vista "seleccion" */
+$vista: normal;
+
+@if $vista == seleccion {
+    $color1: #6cb0e4;
+    $color2: #144870;
+    $color3: #bdb10e;
+    $color4: #b8cbda;
+    $color5: #eaecee;
+}
+@else {
+    $color1: #e2b419;
+    $color2: #6d2612;
+    $color3: #c0330c;
+    $color4: #e0af28;
+    $color5: #ee0606;
+}
+    
+
+
+
+

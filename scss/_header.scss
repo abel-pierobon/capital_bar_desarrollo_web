@@ -1,6 +1,6 @@
 .card_header{
     position:fixed; 
-    background-color:$color_primario; 
+    background-color:$color1; 
     z-index:2;
     .img_header{
         width:100px;
@@ -8,14 +8,14 @@
     }
     .navbar-nav{
         .nav-link{
-            color:$color_negro;
+            color:black;
             font-weight: 700;
             padding: 1px;
-            border-color: $color_negro;
+            border-color: black;
             border-radius: 5px;
             margin: 5px;
             &:hover{
-                color:$color_rojo
+                color:$color5;
             }
         }
     }
