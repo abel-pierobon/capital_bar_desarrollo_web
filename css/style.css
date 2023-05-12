@@ -1,5 +1,6 @@
+@charset "UTF-8";
 /* paleta de colores a usar  */
-/* elegir vista "seleccion" */
+/* cambiar de "$vista: normal" a"$vista: mundial" para eventos de la Selección Argentina*/
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,700;0,800;1,800&family=Poppins:wght@400;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
 @font-face {
@@ -14,9 +15,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* propiedades body */
 body {
-  /*background: url(../img/madera.png);*/
   background: url(../img/madera_3.jpg);
   z-index: 1;
   object-fit: fill;
